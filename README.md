@@ -102,7 +102,7 @@ Pour importer des données dans l'index :
 curl -u admin:admin --insecure -XPUT https://localhost:9200/_bulk -H "Content-Type: application/json" --data-binary @movies_refactored.json
 ```
 
-## Query
+## Query par URL
 
 Pour accéder à l'URL de recherche :
 ```
@@ -164,7 +164,7 @@ Par exemple si l'on a un index movies, on peut créer un index mov* qui pourra c
 
 Ensuite il faut sélectionner un champ temporel
 
-## Visualisation
+## Visualisation des documents de l'index
 
 Retournez sur le menu discover et changer la période pour afficher les datas.
 Par défaut il affiche les datas des 15 dernières minutes.
