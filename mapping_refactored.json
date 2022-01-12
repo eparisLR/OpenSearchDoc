@@ -1,0 +1,59 @@
+{
+    "properties": {
+      "actors": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          },
+          "analyzed": {
+            "type": "text"
+          }
+        }
+      },
+      "directors": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "genres": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "image_url": {
+        "type": "keyword"
+      },
+      "plot": {
+        "type": "text"
+      },
+      "rank": {
+        "type": "long"
+      },
+      "rating": {
+        "type": "float"
+      },
+      "release_date": {
+        "type": "date"
+      },
+      "running_time_secs": {
+        "type": "long"
+      },
+      "title": {
+        "type": "text"
+      },
+      "year": {
+        "type": "long"
+      },
+      "id": {
+        "type": "keyword"
+      }
+    }
+  }
+  
